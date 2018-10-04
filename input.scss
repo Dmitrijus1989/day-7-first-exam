@@ -147,3 +147,25 @@ nav {
 .fa-pied-piper-pp {
   background-color: rgb(148, 123, 176);
 }
+.box-low {
+  margin-top: 30px;
+  align-items: flex-start;
+}
+.low-h {
+  margin: 18px 0;
+}
+.br-low {
+  height: 18px;
+  margin-top: 60px;
+  display: block;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+footer {
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  * {
+    margin: 0;
+  }
+}
