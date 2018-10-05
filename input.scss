@@ -34,7 +34,7 @@ nav {
     }
   }
   }
-.getintouch {
+.getintouch, .getintouch2 {
   font-weight: 650;
   position: absolute;
   top: 12px;
@@ -44,6 +44,8 @@ nav {
   display: inline-block;
   border: solid white 1px;
 }
+.getintouch2 {display: none;}
+.mob-nav {display: none;}
 .triangle {
     position: relative;
     width: 200px;

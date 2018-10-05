@@ -1,0 +1,54 @@
+@media screen and (max-width: 1200px) {
+  .nav-bar {
+    display: none;
+  }
+  .top-row {
+    flex-wrap: wrap;
+  }
+ .box1 {
+   order: -1;
+   flex: 1 0 100%;
+ }
+ .box2, .box3, .box4 {
+  order: 1;
+ }
+ .box2, .box3, .box4 {
+   max-width: 100%
+ }
+ .getintouch {
+   display: none;
+ }
+ .getintouch2 {
+   display: flex;
+   position:absolute;
+   bottom: 12px;
+   top: inherit;
+   right: inherit;
+ }
+ .mob-nav {
+   color: rgb(148, 123, 176);
+   display: block;
+   position: absolute;
+   top: 30px;
+   right: 30px;
+ }
+ .mob-nav-ins {
+   font-size: 120%;
+   color: black;
+   border: solid white 0.5px;
+   border-radius: 50%;
+   background-color: white;
+   padding: 9px;
+ }
+ .dropdown-but {
+   border-width: 0;
+   padding: 0;
+   border-radius: 50%;
+ }
+ .dropdown-but:active {
+   border: solid 1px rgb(148, 123, 176);
+ }
+ .dropdown-menu {
+   width: 100%;
+ }
+}

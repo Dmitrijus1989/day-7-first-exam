@@ -7,11 +7,12 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="normalize.css">
     <title>First exam</title>
   </head>
   <body>
     <div class="overall">
-      <nav>
+      <nav class="nav-bar">
         <ul class="nav1">
           <li>Work</li>
           <li>Service</li>
@@ -23,14 +24,27 @@
       </nav>
       <div class="getintouch">GET IN TOUCH</div>
       <div class="container-fluid">
-        <div class="row">
+        <div class="top-row row">
           <div class="box1 col-sm">
+
+            <div class="mob-nav">
+            <button class="dropdown-but" type="" id="dropdownMenuButton"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <i class="mob-nav-ins fas fa-bars"></i>
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+            </div>
             <div class="triangle figure1"></div>
             <div class="circle figure2"></div>
             <div class="square figure3"></div>
             <h4 class="BUKWIL">BUKWIL</h4>
             <h2 class="box-text">We are a creative digital agency</h2>
             <h5 class="box-text">TRUE STORIES & USEFUL EXPERIENCES</h5>
+            <div class="getintouch2">GET IN TOUCH</div>
           </div>
           <div class="box2 col-sm">
             <div class="triangle"></div>
